@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: src_dwh
+    database: dev
+    schema: staging
+    tables:
+        - name : stg_abv
+          description : table about pos and abv performance shared by the accounts
+        
