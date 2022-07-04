@@ -1,0 +1,1 @@
+select * from {{ source('src_dwh', 'fact_invoices') }}

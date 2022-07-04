@@ -2,9 +2,12 @@ version: 2
 
 sources:
   - name: src_dwh
-    database: dev
-    schema: staging
+    database: dwh
+    schema: public
     tables:
-        - name : stg_abv
-          description : table about pos and abv performance shared by the accounts
+        - name: Stg_Dim_Items
+          description: table about items created in SAP
+        - name : bill_of_products
+        - name : fact_invoices
+        - name : stg_production_costs
         

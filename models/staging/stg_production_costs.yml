@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_production_costs
+    description: productions_costs pulled out from SAP and treated
+    columns:
+      - name: prod_cost
+        description : '{{ doc("id_join")}}'
